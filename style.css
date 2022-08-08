@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap");
+body {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  margin: 0;
+}
+section {
+  width: 100%;
+}
+/* section header {
+  background-color: red; */
+
+section header .img {
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 100, 0.6), rgba(0, 0, 100, 0.6)),
+    url("images/Untitled-2.jpg");
+  background-size: cover;
+  background-position: cover;
+  box-shadow: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section header .img h2 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 4em;
+  margin: 0;
+  font-family: poppins sans-serif;
+  line-height: 1.2em;
+  letter-spacing: 0.2em;
+  justify-content: space-evenly;
+}
+section header h3 {
+  position: absolute;
+  top: 0px;
+  color: #fff;
+  padding: 0 20px;
+  font-size: 3em;
+  margin: 0;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Mukta", sans-serif;
+}
+section header .language {
+  position: absolute;
+  top: 0;
+  right: 150px;
+  margin: 40px 20px;
+  padding: 8px 18px;
+  background-color: #00000066;
+  color: #fff;
+  border-radius: 5px;
+}
+section header button {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  margin: 40px 20px;
+  padding: 10px 18px;
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+section .line {
+  width: 100%;
+  height: 6px;
+  background-color: #a9a9a9;
+}
+section .row {
+  display: flex;
+  text-align: center;
+  height: auto;
+  background-color: black;
+  padding: 0;
+}
+section .row .col-2 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  transition: ease-in;
+}
+section .row img {
+  width: 70%;
+  margin-top: 20px;
+}
+section .row img:hover {
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+section .credits {
+  height: 50vh;
+  background-color: black;
+}
+section header h4 {
+  position: absolute;
+  top: 290px;
+  left: 500px;
+  color: #fff;
+  align-items: center;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+section .credits {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+section .credits .main-credits {
+  color: #d3d3d3;
+  margin-right: 500px;
+  margin-top: 40px;
+}
+section .credits .main-credits h5 {
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+section .credits .main-credits ul {
+  list-style: none;
+}
+section .credits .main-credits ul li {
+  padding: 5px;
+}
